@@ -1,1 +1,1 @@
-# Network_scanner_project
+# Network_scanner_project (prototype)
