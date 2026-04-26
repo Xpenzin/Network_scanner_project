@@ -15,6 +15,7 @@ try:
         print("\nInput format:")
         print("target ip addr (or range)")
         print("target port specification (type '=' if you want range in between, example: =25-130)")
+
 # terminal input (target info)
     elif len(sys.argv) == 3:
         HOST = sys.argv[1]
@@ -130,6 +131,6 @@ if "/" not in str(HOST):
     
     finally:
         scann.close()
-
+# Output after scan doesn't detect any open ports.
 if total_ports == 0:
     print("No ports were found")
